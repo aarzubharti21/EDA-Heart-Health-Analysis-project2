@@ -1,4 +1,10 @@
-# ❤️ Heart Health Analysis – Exploratory Data Analysis (EDA)
+# ❤️ Heart Health Analysis – Exploratory Data Analysis (EDA)-## Kaggle Notebook
+
+[![Kaggle](https://img.shields.io/badge/Kaggle-Notebook-blue?logo=kaggle)](https://www.kaggle.com/code/aarzukashyap/eda-heart-health-analysis-project2)
+
+## Project Overview
+
+This project performs Exploratory Data Analysis (EDA) on heart health data to identify risk factors associated with cardiovascular disease...
 
 ## 📌 Project Overview
 
