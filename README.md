@@ -31,9 +31,9 @@ This project aims to answer the following questions:
 
 ---
 
-# 📂 Dataset Information
+Dataset Information
 
-### Dataset Type
+## Dataset Type
 
 Heart Disease Dataset
 
@@ -64,7 +64,7 @@ Patient-level health information
 
 ---
 
-# 🛠️ Technologies Used
+#  Technologies Used
 
 * Python
 * Pandas
@@ -76,7 +76,7 @@ Patient-level health information
 
 ---
 
-# 🧹 Data Cleaning & Preprocessing
+#  Data Cleaning & Preprocessing
 
 The dataset was cleaned and prepared before analysis.
 
@@ -96,9 +96,9 @@ The dataset was cleaned and prepared before analysis.
 
 ---
 
-# 📊 Exploratory Data Analysis
+#  Exploratory Data Analysis
 
-## 1️⃣ Heart Disease Distribution
+## 1️ Heart Disease Distribution
 
 ### Objective
 
@@ -115,7 +115,7 @@ A significant portion of patients were diagnosed with heart disease, indicating 
 
 ---
 
-## 2️⃣ Age Analysis
+##  Age Analysis
 
 ### Objective
 
@@ -135,7 +135,7 @@ Analyze the impact of age on heart disease.
 
 ---
 
-## 3️⃣ Gender Analysis
+##  Gender Analysis
 
 ### Objective
 
@@ -153,7 +153,7 @@ Evaluate heart disease prevalence by gender.
 
 ---
 
-## 4️⃣ Cholesterol Analysis
+## Cholesterol Analysis
 
 ### Objective
 
@@ -171,7 +171,7 @@ Assess cholesterol as a cardiovascular risk factor.
 
 ---
 
-## 5️⃣ Blood Pressure Analysis
+## Blood Pressure Analysis
 
 ### Objective
 
@@ -189,7 +189,7 @@ Understand the relationship between blood pressure and heart disease.
 
 ---
 
-## 6️⃣ Chest Pain Analysis
+##  Chest Pain Analysis
 
 ### Objective
 
@@ -206,7 +206,7 @@ Identify the most significant chest pain types.
 
 ---
 
-## 7️⃣ Maximum Heart Rate Analysis
+## Maximum Heart Rate Analysis
 
 ### Objective
 
@@ -224,7 +224,7 @@ Analyze exercise performance indicators.
 
 ---
 
-## 8️⃣ Exercise-Induced Angina Analysis
+## Exercise-Induced Angina Analysis
 
 ### Objective
 
@@ -242,7 +242,7 @@ Understand the impact of exercise-related symptoms.
 
 ---
 
-## 9️⃣ Correlation Analysis
+## Correlation Analysis
 
 ### Objective
 
@@ -265,9 +265,7 @@ Identify relationships among variables.
 
 * Correlation Heatmap
 
----
-
-# 📈 Key Findings
+#  Key Findings
 
 ### Finding 1
 
@@ -295,7 +293,7 @@ Heart disease is influenced by multiple interacting factors rather than a single
 
 ---
 
-# 💡 Business Recommendations
+#  Business Recommendations
 
 ## For Healthcare Providers
 
@@ -317,7 +315,7 @@ Heart disease is influenced by multiple interacting factors rather than a single
 
 ---
 
-# 📉 Visualizations Included
+#  Visualizations Included
 
 * Heart Disease Distribution
 * Age Analysis
@@ -330,35 +328,10 @@ Heart disease is influenced by multiple interacting factors rather than a single
 
 ---
 
-# 🚀 Project Outcome
+#  Project Outcome
 
 This project demonstrates how Exploratory Data Analysis can be used to identify critical health risk factors associated with heart disease.
 
 The findings support evidence-based healthcare decisions and highlight the importance of preventive healthcare strategies for reducing cardiovascular risk.
 
----
-
-# 📁 Repository Structure
-
-```text
-eda-heart-health-analysis-project2/
-│
-├── data/
-│   └── heart.csv
-│
-├── notebooks/
-│   └── heart_health_analysis.ipynb
-│
-├── images/
-│   ├── age_distribution.png
-│   ├── gender_analysis.png
-│   ├── cholesterol_analysis.png
-│   ├── correlation_heatmap.png
-│
-├── requirements.txt
-│
-└── README.md
-```
-
-
-* GitHub: Add Your GitHub URL
+Author: Aarzu Bharti
