@@ -1,23 +1,20 @@
-# ❤️ Heart Health Analysis – Exploratory Data Analysis (EDA)-## Kaggle Notebook
+## Heart Health Analysis – Exploratory Data Analysis (EDA)
+## Kaggle Notebook
 
-[![Kaggle](https://img.shields.io/badge/Kaggle-Notebook-blue?logo=kaggle)](https://www.kaggle.com/code/aarzukashyap/eda-heart-health-analysis-project2)
+[[Kaggle](https://img.shields.io/badge/Kaggle-Notebook-blue?logo=kaggle)](https://www.kaggle.com/code/aarzukashyap/eda-heart-health-analysis-project2)
 
 ## Project Overview
 
 This project performs Exploratory Data Analysis (EDA) on heart health data to identify risk factors associated with cardiovascular disease...
 
-## 📌 Project Overview
-
+##  Project Overview
 Cardiovascular diseases remain one of the leading causes of death worldwide. Early identification of risk factors can significantly improve patient outcomes and support preventive healthcare strategies.
 
 This project performs Exploratory Data Analysis (EDA) on a Heart Health dataset to identify key factors associated with heart disease risk. The analysis focuses on understanding relationships between demographic, clinical, and lifestyle variables and their impact on heart health.
 
 Using Python, statistical analysis, and data visualization techniques, this project uncovers meaningful insights that can help healthcare professionals, researchers, and policymakers make data-driven decisions.
 
----
-
-# 🎯 Business Problem
-
+## Business Problem
 Healthcare organizations need to identify individuals at higher risk of heart disease so that preventive measures can be implemented early.
 
 This project aims to answer the following questions:
@@ -29,227 +26,148 @@ This project aims to answer the following questions:
 * Are there gender-based differences in heart disease prevalence?
 * Which patient groups require early intervention?
 
----
-
-Dataset Information
-
+## Dataset Information
 ## Dataset Type
 
 Heart Disease Dataset
 
 ### Data Source
-
 Public Healthcare Dataset
 
 ### Records
-
 Patient-level health information
 
-### Features Included
-
-| Feature        | Description             |
-| -------------- | ----------------------- |
-| Age            | Age of Patient          |
-| Sex            | Gender                  |
-| ChestPainType  | Type of Chest Pain      |
-| RestingBP      | Resting Blood Pressure  |
-| Cholesterol    | Cholesterol Level       |
-| FastingBS      | Fasting Blood Sugar     |
-| RestingECG     | ECG Results             |
-| MaxHR          | Maximum Heart Rate      |
-| ExerciseAngina | Exercise-Induced Angina |
-| Oldpeak        | ST Depression           |
-| ST_Slope       | ST Segment Slope        |
-| HeartDisease   | Target Variable         |
-
----
-
-#  Technologies Used
-
+##  Technologies Used
 * Python
 * Pandas
 * NumPy
 * Matplotlib
 * Seaborn
-* Jupyter Notebook
 * Kaggle Notebook
 
----
-
-#  Data Cleaning & Preprocessing
+##  Data Cleaning & Preprocessing
 
 The dataset was cleaned and prepared before analysis.
 
 ### Steps Performed
-
-✔ Checked missing values
-
-✔ Verified data types
-
-✔ Removed duplicate records
-
-✔ Standardized categorical variables
-
-✔ Inspected outliers
-
-✔ Validated numerical ranges
-
----
+*Checked missing values
+*Verified data types
+*Removed duplicate records
+*Standardized categorical variables
+*Inspected outliers
+*Validated numerical ranges
 
 #  Exploratory Data Analysis
-
 ## 1️ Heart Disease Distribution
 
 ### Objective
-
 Understand overall disease prevalence.
 
 ### Analysis
-
 * Distribution of patients with and without heart disease.
 * Class balance evaluation.
 
 ### Insight
-
 A significant portion of patients were diagnosed with heart disease, indicating the importance of early risk detection.
 
----
-
 ##  Age Analysis
-
 ### Objective
 
 Analyze the impact of age on heart disease.
 
 ### Findings
-
 * Risk increases with age.
 * Older patients show higher prevalence rates.
 * Middle-aged and senior populations require regular screening.
 
 ### Visualizations
-
 * Histogram
 * Box Plot
 * Age Distribution Analysis
 
----
-
 ##  Gender Analysis
-
 ### Objective
 
 Evaluate heart disease prevalence by gender.
 
 ### Findings
-
 * Male patients show higher heart disease occurrence.
 * Gender differences suggest varying risk profiles.
 
 ### Visualizations
-
 * Count Plot
 * Percentage Distribution
 
----
-
 ## Cholesterol Analysis
-
 ### Objective
 
 Assess cholesterol as a cardiovascular risk factor.
 
 ### Findings
-
 * Elevated cholesterol levels are associated with increased heart disease risk.
 * High cholesterol patients require proactive monitoring.
 
 ### Visualizations
-
 * Distribution Plot
 * Box Plot
 
----
-
 ## Blood Pressure Analysis
-
 ### Objective
 
 Understand the relationship between blood pressure and heart disease.
 
 ### Findings
-
 * Higher resting blood pressure increases cardiovascular risk.
 * Hypertension remains a critical indicator.
 
 ### Visualizations
-
 * Blood Pressure Distribution
 * Comparative Analysis
 
----
-
 ##  Chest Pain Analysis
-
 ### Objective
 
 Identify the most significant chest pain types.
 
 ### Findings
-
 * Certain chest pain categories show stronger association with heart disease.
 * Chest pain remains an important diagnostic indicator.
 
 ### Visualizations
-
 * Category Comparison Charts
 
----
-
 ## Maximum Heart Rate Analysis
-
 ### Objective
 
 Analyze exercise performance indicators.
 
 ### Findings
-
 * Patients with lower maximum heart rates tend to show higher disease prevalence.
 * Heart rate can be a useful predictive factor.
 
 ### Visualizations
-
 * Scatter Plot
 * Distribution Analysis
 
----
-
 ## Exercise-Induced Angina Analysis
-
 ### Objective
 
 Understand the impact of exercise-related symptoms.
 
 ### Findings
-
 * Exercise-induced angina is strongly linked to heart disease.
 * Patients experiencing angina require additional evaluation.
 
 ### Visualizations
-
 * Count Plot
 * Risk Comparison
 
----
-
 ## Correlation Analysis
-
 ### Objective
 
 Identify relationships among variables.
 
 ### Variables Examined
-
 * Age
 * Blood Pressure
 * Cholesterol
@@ -257,44 +175,33 @@ Identify relationships among variables.
 * Heart Disease
 
 ### Findings
-
 * Multiple factors contribute simultaneously to heart disease risk.
 * No single variable alone explains all cases.
 
 ### Visualization
-
 * Correlation Heatmap
 
-#  Key Findings
-
+# Key Findings
 ### Finding 1
 
 Age is one of the strongest indicators of heart disease risk.
 
 ### Finding 2
-
 Male patients exhibit higher prevalence rates than female patients.
 
 ### Finding 3
-
 Exercise-induced angina significantly increases disease likelihood.
 
 ### Finding 4
-
 Higher blood pressure contributes to cardiovascular risk.
 
 ### Finding 5
-
 Cholesterol remains an important health indicator.
 
 ### Finding 6
-
 Heart disease is influenced by multiple interacting factors rather than a single variable.
 
----
-
 #  Business Recommendations
-
 ## For Healthcare Providers
 
 * Prioritize preventive screening for older populations.
@@ -302,36 +209,19 @@ Heart disease is influenced by multiple interacting factors rather than a single
 * Promote early diagnosis programs.
 
 ## For Hospitals
-
 * Implement risk-scoring systems.
 * Develop targeted intervention programs.
 * Improve patient education initiatives.
 
 ## For Public Health Authorities
-
 * Increase awareness campaigns on heart disease prevention.
 * Encourage healthy lifestyle adoption.
 * Promote regular cardiovascular checkups.
 
----
-
-#  Visualizations Included
-
-* Heart Disease Distribution
-* Age Analysis
-* Gender Analysis
-* Cholesterol Distribution
-* Blood Pressure Analysis
-* Chest Pain Analysis
-* Exercise Angina Analysis
-* Correlation Heatmap
-
----
-
-#  Project Outcome
-
+##  Project Outcome
 This project demonstrates how Exploratory Data Analysis can be used to identify critical health risk factors associated with heart disease.
 
 The findings support evidence-based healthcare decisions and highlight the importance of preventive healthcare strategies for reducing cardiovascular risk.
 
-Author: Aarzu Bharti
+## Author
+## Aarzu Bharti
