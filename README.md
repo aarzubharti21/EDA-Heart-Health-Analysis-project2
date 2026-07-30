@@ -1,13 +1,11 @@
 ## Heart Health Analysis – Exploratory Data Analysis (EDA)
 ## Kaggle Notebook
-
-[[Kaggle](https://img.shields.io/badge/Kaggle-Notebook-blue?logo=kaggle)](https://www.kaggle.com/code/aarzukashyap/eda-heart-health-analysis-project2)
+(https://www.kaggle.com/code/aarzukashyap/eda-heart-health-analysis-project2)
 
 ## Project Overview
 
 This project performs Exploratory Data Analysis (EDA) on heart health data to identify risk factors associated with cardiovascular disease...
 
-##  Project Overview
 Cardiovascular diseases remain one of the leading causes of death worldwide. Early identification of risk factors can significantly improve patient outcomes and support preventive healthcare strategies.
 
 This project performs Exploratory Data Analysis (EDA) on a Heart Health dataset to identify key factors associated with heart disease risk. The analysis focuses on understanding relationships between demographic, clinical, and lifestyle variables and their impact on heart health.
@@ -17,7 +15,7 @@ Using Python, statistical analysis, and data visualization techniques, this proj
 ## Business Problem
 Healthcare organizations need to identify individuals at higher risk of heart disease so that preventive measures can be implemented early.
 
-This project aims to answer the following questions:
+# This project aims to answer the following questions:
 
 * Which factors are most strongly associated with heart disease?
 * Does age increase heart disease risk?
