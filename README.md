@@ -1,8 +1,9 @@
-## Heart Health Analysis – Exploratory Data Analysis (EDA)
+# Heart Health Analysis – Exploratory Data Analysis (EDA)
+
 ## Kaggle Notebook
 (https://www.kaggle.com/code/aarzukashyap/eda-heart-health-analysis-project2)
 
-## Project Overview
+# Project Overview
 
 This project performs Exploratory Data Analysis (EDA) on heart health data to identify risk factors associated with cardiovascular disease...
 
@@ -12,211 +13,241 @@ This project performs Exploratory Data Analysis (EDA) on a Heart Health dataset 
 
 Using Python, statistical analysis, and data visualization techniques, this project uncovers meaningful insights that can help healthcare professionals, researchers, and policymakers make data-driven decisions.
 
-## Business Problem
+# Business Problem
 Healthcare organizations need to identify individuals at higher risk of heart disease so that preventive measures can be implemented early.
 
-# This project aims to answer the following questions:
+This project aims to answer the following questions:
 
 * Which factors are most strongly associated with heart disease?
+  
 * Does age increase heart disease risk?
+  
 * What is the relationship between cholesterol and heart disease?
+  
 * How does blood pressure affect patient outcomes?
+  
 * Are there gender-based differences in heart disease prevalence?
+  
 * Which patient groups require early intervention?
 
-## Dataset Information
-## Dataset Type
+# Dataset Information
+**Dataset Type**
 
 Heart Disease Dataset
 
-### Data Source
+**Data Source**
+
 Public Healthcare Dataset
 
-### Records
+**Records**
+
 Patient-level health information
 
-##  Technologies Used
+# Technologies Used
 * Python
+  
 * Pandas
+  
 * NumPy
+  
 * Matplotlib
+  
 * Seaborn
+  
 * Kaggle Notebook
 
-##  Data Cleaning & Preprocessing
-
+#  Data Cleaning & Preprocessing
 The dataset was cleaned and prepared before analysis.
 
-### Steps Performed
+## Steps Performed
 *Checked missing values
+
 *Verified data types
+
 *Removed duplicate records
+
 *Standardized categorical variables
-*Inspected outliers
+
+*Inspected outlier
 *Validated numerical ranges
 
 #  Exploratory Data Analysis
-## 1️ Heart Disease Distribution
+1.**Heart Disease Distribution** 
+**Objective** - Understand overall disease prevalence.
 
-### Objective
-Understand overall disease prevalence.
-
-### Analysis
+**Analysis**
 * Distribution of patients with and without heart disease.
+  
 * Class balance evaluation.
 
-### Insight
+**Insight**
 A significant portion of patients were diagnosed with heart disease, indicating the importance of early risk detection.
 
-##  Age Analysis
-### Objective
+2.**Age Analysis**
+**Objective**  - Analyze the impact of age on heart disease.
 
-Analyze the impact of age on heart disease.
-
-### Findings
+**Findings**
 * Risk increases with age.
+  
 * Older patients show higher prevalence rates.
+  
 * Middle-aged and senior populations require regular screening.
 
-### Visualizations
+**Visualizations**
 * Histogram
+  
 * Box Plot
+  
 * Age Distribution Analysis
 
-##  Gender Analysis
-### Objective
+3.**Gender Analysis**
+**Objective**  - Evaluate heart disease prevalence by gender.
 
-Evaluate heart disease prevalence by gender.
-
-### Findings
+**Findings**
 * Male patients show higher heart disease occurrence.
+  
 * Gender differences suggest varying risk profiles.
 
-### Visualizations
+**Visualizations**
 * Count Plot
+* 
 * Percentage Distribution
 
-## Cholesterol Analysis
-### Objective
-
+4.**Cholesterol Analysis**
+**Objective**
 Assess cholesterol as a cardiovascular risk factor.
 
-### Findings
+**Findings**
 * Elevated cholesterol levels are associated with increased heart disease risk.
+  
 * High cholesterol patients require proactive monitoring.
 
-### Visualizations
+**Visualizations**
 * Distribution Plot
+  
 * Box Plot
 
-## Blood Pressure Analysis
-### Objective
-
+5.**Blood Pressure Analysis**
+**Objective**
 Understand the relationship between blood pressure and heart disease.
 
-### Findings
+**Findings**
 * Higher resting blood pressure increases cardiovascular risk.
+  
 * Hypertension remains a critical indicator.
 
-### Visualizations
+**Visualizations**
 * Blood Pressure Distribution
+  
 * Comparative Analysis
 
-##  Chest Pain Analysis
-### Objective
-
+6.**Chest Pain Analysis**
+**Objective**
 Identify the most significant chest pain types.
 
-### Findings
+**Findings**
 * Certain chest pain categories show stronger association with heart disease.
+  
 * Chest pain remains an important diagnostic indicator.
 
-### Visualizations
+**Visualizations**
 * Category Comparison Charts
 
-## Maximum Heart Rate Analysis
-### Objective
-
+7.**Maximum Heart Rate Analysis**
+**Objective**
 Analyze exercise performance indicators.
 
-### Findings
+**Findings**
 * Patients with lower maximum heart rates tend to show higher disease prevalence.
+  
 * Heart rate can be a useful predictive factor.
 
-### Visualizations
+**Visualizations**
 * Scatter Plot
+  
 * Distribution Analysis
 
-## Exercise-Induced Angina Analysis
-### Objective
-
+8.**Exercise-Induced Angina Analysis**
+**Objective**
 Understand the impact of exercise-related symptoms.
 
-### Findings
+**Findings**
 * Exercise-induced angina is strongly linked to heart disease.
+  
 * Patients experiencing angina require additional evaluation.
 
-### Visualizations
+**Visualizations**
 * Count Plot
+  
 * Risk Comparison
 
-## Correlation Analysis
-### Objective
-
+8.**Correlation Analysis**
+**Objective**
 Identify relationships among variables.
 
-### Variables Examined
+**Variables Examined**
 * Age
+  
 * Blood Pressure
+  
 * Cholesterol
+  
 * Heart Rate
+  
 * Heart Disease
 
-### Findings
+**Findings**
 * Multiple factors contribute simultaneously to heart disease risk.
+  
 * No single variable alone explains all cases.
 
-### Visualization
+**Visualization**
+
 * Correlation Heatmap
 
 # Key Findings
-### Finding 1
-
+##Finding 1
 Age is one of the strongest indicators of heart disease risk.
 
-### Finding 2
+## Finding 2
 Male patients exhibit higher prevalence rates than female patients.
 
-### Finding 3
+## Finding 3
 Exercise-induced angina significantly increases disease likelihood.
 
-### Finding 4
+## Finding 4
 Higher blood pressure contributes to cardiovascular risk.
 
-### Finding 5
+## Finding 5
 Cholesterol remains an important health indicator.
 
-### Finding 6
+## Finding 6
 Heart disease is influenced by multiple interacting factors rather than a single variable.
 
 #  Business Recommendations
 ## For Healthcare Providers
 
 * Prioritize preventive screening for older populations.
+  
 * Monitor high-risk patients more frequently.
+  
 * Promote early diagnosis programs.
 
 ## For Hospitals
 * Implement risk-scoring systems.
+  
 * Develop targeted intervention programs.
+  
 * Improve patient education initiatives.
 
 ## For Public Health Authorities
 * Increase awareness campaigns on heart disease prevention.
+  
 * Encourage healthy lifestyle adoption.
+  
 * Promote regular cardiovascular checkups.
 
-##  Project Outcome
+#  Conclusion
 This project demonstrates how Exploratory Data Analysis can be used to identify critical health risk factors associated with heart disease.
 
 The findings support evidence-based healthcare decisions and highlight the importance of preventive healthcare strategies for reducing cardiovascular risk.
