@@ -72,6 +72,7 @@ The dataset was cleaned and prepared before analysis.
 *Validated numerical ranges
 
 #  Exploratory Data Analysis
+
 1.**Heart Disease Distribution** 
 **Objective** - Understand overall disease prevalence.
 
@@ -181,7 +182,7 @@ Understand the impact of exercise-related symptoms.
   
 * Risk Comparison
 
-8.**Correlation Analysis**
+9.**Correlation Analysis**
 **Objective**
 Identify relationships among variables.
 
@@ -206,7 +207,8 @@ Identify relationships among variables.
 * Correlation Heatmap
 
 # Key Findings
-##Finding 1
+
+## Finding 1
 Age is one of the strongest indicators of heart disease risk.
 
 ## Finding 2
