@@ -17,21 +17,21 @@ The analysis is performed in: EDA_Heart_Health_Analysis.ipynb
 
 A systematic Exploratory Data Analysis workflow was implemented to understand the dataset, improve data quality, and identify the variables that contribute most significantly to heart disease prediction. The major analytical phases included:
 
--**Data Exploration**: Imported the heart disease dataset and examined its structure, dimensions, data types, missing values, duplicate records, and statistical summaries to understand overall data quality.
+- **Data Exploration**: Imported the heart disease dataset and examined its structure, dimensions, data types, missing values, duplicate records, and statistical summaries to understand overall data quality.
 
--**Data Cleaning**: Verified missing values, removed duplicate observations, corrected inconsistent records where necessary, and ensured the dataset was suitable for analysis.
+- **Data Cleaning**: Verified missing values, removed duplicate observations, corrected inconsistent records where necessary, and ensured the dataset was suitable for analysis.
 
--**Descriptive Statistical Analysis**: Generated summary statistics including mean, median, minimum, maximum, standard deviation, and quartiles to understand the distribution of numerical variables.
+- **Descriptive Statistical Analysis**: Generated summary statistics including mean, median, minimum, maximum, standard deviation, and quartiles to understand the distribution of numerical variables.
 
--**Univariate Analysis**: Analyzed the distribution of individual variables such as Age, Cholesterol, Resting Blood Pressure, Maximum Heart Rate, Chest Pain Type, Fasting Blood Sugar, and Heart Disease Status using histograms, count plots, and box plots.
+- **Univariate Analysis**: Analyzed the distribution of individual variables such as Age, Cholesterol, Resting Blood Pressure, Maximum Heart Rate, Chest Pain Type, Fasting Blood Sugar, and Heart Disease Status using histograms, count plots, and box plots.
 
--**Bivariate Analysis**: Explored relationships between medical attributes and heart disease using grouped visualizations, comparative charts, and cross-tabulation techniques.
+- **Bivariate Analysis**: Explored relationships between medical attributes and heart disease using grouped visualizations, comparative charts, and cross-tabulation techniques.
 
--**Correlation Analysis**: Computed a correlation matrix to identify positive and negative relationships among clinical variables, helping determine the strongest predictors associated with heart disease.
+- **Correlation Analysis**: Computed a correlation matrix to identify positive and negative relationships among clinical variables, helping determine the strongest predictors associated with heart disease.
 
--**Outlier Detection**: Utilized box plots and distribution analysis to identify abnormal observations in continuous variables such as cholesterol levels, blood pressure, and maximum heart rate.
+- **Outlier Detection**: Utilized box plots and distribution analysis to identify abnormal observations in continuous variables such as cholesterol levels, blood pressure, and maximum heart rate.
 
--**Data Visualization**: Created informative visualizations including heatmaps, histograms, box plots, count plots, pair plots, and correlation matrices to communicate analytical findings effectively.
+- **Data Visualization**: Created informative visualizations including heatmaps, histograms, box plots, count plots, pair plots, and correlation matrices to communicate analytical findings effectively.
 
 ## Analysis
 
@@ -39,35 +39,35 @@ The final deliverable consists of a comprehensive Exploratory Data Analysis note
 
 ## Analysis Components
 
--**Dataset Overview**: Presents the overall structure of the dataset including the number of observations, features, data types, and missing value assessment.
+- **Dataset Overview**: Presents the overall structure of the dataset including the number of observations, features, data types, and missing value assessment.
 
--**Patient Demographic Analysis**: Examines age and gender distribution to understand population characteristics associated with cardiovascular disease.
+- **Patient Demographic Analysis**: Examines age and gender distribution to understand population characteristics associated with cardiovascular disease.
 
--**Clinical Feature Analysis**: Investigates the influence of chest pain type, fasting blood sugar, resting ECG results, exercise-induced angina, ST depression, and slope of peak exercise on heart disease occurrence.
+- **Clinical Feature Analysis**: Investigates the influence of chest pain type, fasting blood sugar, resting ECG results, exercise-induced angina, ST depression, and slope of peak exercise on heart disease occurrence.
 
--**Cholesterol & Blood Pressure Analysis**: Evaluates cholesterol levels and resting blood pressure distributions to identify high-risk patient groups.
+- **Cholesterol & Blood Pressure Analysis**: Evaluates cholesterol levels and resting blood pressure distributions to identify high-risk patient groups.
 
--**Heart Rate Analysis**: Analyzes maximum heart rate achieved during exercise and its relationship with cardiovascular health.
+- **Heart Rate Analysis**: Analyzes maximum heart rate achieved during exercise and its relationship with cardiovascular health.
 
--**Correlation Heatmap**: Visualizes relationships among all numerical variables to identify highly correlated medical indicators.
+- **Correlation Heatmap**: Visualizes relationships among all numerical variables to identify highly correlated medical indicators.
 
--**Outlier Analysis**: Detects unusual clinical observations that may influence statistical interpretation or predictive modeling.
+- **Outlier Analysis**: Detects unusual clinical observations that may influence statistical interpretation or predictive modeling.
 
--**Heart Disease Distribution**: Examines the proportion of patients diagnosed with and without heart disease, providing an overall understanding of the dataset.
+- **Heart Disease Distribution**: Examines the proportion of patients diagnosed with and without heart disease, providing an overall understanding of the dataset.
 
 ## Recommendations
 
 Based on the findings obtained through Exploratory Data Analysis, the following recommendations are proposed:
 
--**Prioritize Early Screening**: Individuals exhibiting multiple high-risk clinical indicators should undergo regular cardiovascular screening for early detection of heart disease.
+- **Prioritize Early Screening**: Individuals exhibiting multiple high-risk clinical indicators should undergo regular cardiovascular screening for early detection of heart disease.
 
--**Monitor Cholesterol Levels**: Elevated cholesterol remains a significant cardiovascular risk factor; regular monitoring and dietary interventions should be encouraged.
+- **Monitor Cholesterol Levels**: Elevated cholesterol remains a significant cardiovascular risk factor; regular monitoring and dietary interventions should be encouraged.
 
--**Promote Healthy Lifestyle Practices**: Encourage physical activity, balanced nutrition, smoking cessation, and stress management to reduce overall cardiovascular risk.
+- **Promote Healthy Lifestyle Practices**: Encourage physical activity, balanced nutrition, smoking cessation, and stress management to reduce overall cardiovascular risk.
 
--**Focus on High-Risk Age Groups**: Preventive healthcare initiatives should prioritize middle-aged and older adults who demonstrate higher susceptibility to heart disease.
+- **Focus on High-Risk Age Groups**: Preventive healthcare initiatives should prioritize middle-aged and older adults who demonstrate higher susceptibility to heart disease.
 
--**Leverage Clinical Indicators**: Medical professionals should evaluate chest pain type, exercise-induced angina, ST depression, and maximum heart rate collectively for more accurate risk assessment.
+- **Leverage Clinical Indicators**: Medical professionals should evaluate chest pain type, exercise-induced angina, ST depression, and maximum heart rate collectively for more accurate risk assessment.
 
 Support Predictive Healthcare Models: The insights obtained through EDA can serve as a strong foundation for developing machine learning models capable of predicting heart disease risk with improved accuracy.
 Encourage Continuous Data Monitoring: Healthcare institutions should continuously analyze patient health records to identify emerging disease patterns and improve preventive care strategies.
