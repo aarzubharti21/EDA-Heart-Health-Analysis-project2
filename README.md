@@ -13,7 +13,7 @@ The primary objective of this project was to perform an in-depth exploratory ana
 
 ## Analysis Done
 
-The analysis is performed in: EDA_Heart_Health_Analysis.ipynb
+> The analysis is performed in: **EDA_Heart_Health_Analysis.ipynb**
 
 A systematic Exploratory Data Analysis workflow was implemented to understand the dataset, improve data quality, and identify the variables that contribute most significantly to heart disease prediction. The major analytical phases included:
 
