@@ -7,11 +7,11 @@
 
 I am pleased to present the Heart Health Exploratory Data Analysis (EDA) project, a comprehensive data analytics project developed using Python to transform raw clinical heart disease data into meaningful healthcare insights. This project applies statistical analysis, data cleaning, and interactive visualizations to identify the major factors associated with heart disease risk. By exploring patient demographics, medical indicators, and clinical measurements, the analysis provides valuable insights that can support healthcare professionals, researchers, and data analysts in understanding patterns related to cardiovascular disease.
 
-## Problem Statement
+## Problem Background
 
 The primary objective of this project was to perform an in-depth exploratory analysis of heart disease data to identify the key medical and demographic factors influencing cardiovascular health. The dataset contains patient information including age, gender, chest pain type, blood pressure, cholesterol levels, fasting blood sugar, ECG results, maximum heart rate, exercise-induced angina, ST depression, and other clinical variables. Due to the complexity of medical data, it becomes challenging to identify meaningful relationships and risk patterns without systematic analysis. This project focuses on uncovering hidden trends, detecting correlations, and generating actionable healthcare insights through Exploratory Data Analysis (EDA).
 
-## Analysis Done
+## Analytical work
 
 > The analysis is performed in: **EDA_Heart_Health_Analysis.ipynb**
 
@@ -23,8 +23,6 @@ A systematic Exploratory Data Analysis workflow was implemented to understand th
 
 - **Descriptive Statistical Analysis**: Generated summary statistics including mean, median, minimum, maximum, standard deviation, and quartiles to understand the distribution of numerical variables.
 
-- **Univariate Analysis**: Analyzed the distribution of individual variables such as Age, Cholesterol, Resting Blood Pressure, Maximum Heart Rate, Chest Pain Type, Fasting Blood Sugar, and Heart Disease Status using histograms, count plots, and box plots.
-
 - **Bivariate Analysis**: Explored relationships between medical attributes and heart disease using grouped visualizations, comparative charts, and cross-tabulation techniques.
 
 - **Correlation Analysis**: Computed a correlation matrix to identify positive and negative relationships among clinical variables, helping determine the strongest predictors associated with heart disease.
@@ -32,10 +30,6 @@ A systematic Exploratory Data Analysis workflow was implemented to understand th
 - **Outlier Detection**: Utilized box plots and distribution analysis to identify abnormal observations in continuous variables such as cholesterol levels, blood pressure, and maximum heart rate.
 
 - **Data Visualization**: Created informative visualizations including heatmaps, histograms, box plots, count plots, pair plots, and correlation matrices to communicate analytical findings effectively.
-
-## Analysis
-
-The final deliverable consists of a comprehensive Exploratory Data Analysis notebook containing statistical summaries and interactive visualizations that provide meaningful insights into heart disease risk factors.
 
 ## Analysis Components
 
@@ -68,9 +62,6 @@ Based on the findings obtained through Exploratory Data Analysis, the following 
 - **Focus on High-Risk Age Groups**: Preventive healthcare initiatives should prioritize middle-aged and older adults who demonstrate higher susceptibility to heart disease.
 
 - **Leverage Clinical Indicators**: Medical professionals should evaluate chest pain type, exercise-induced angina, ST depression, and maximum heart rate collectively for more accurate risk assessment.
-
-Support Predictive Healthcare Models: The insights obtained through EDA can serve as a strong foundation for developing machine learning models capable of predicting heart disease risk with improved accuracy.
-Encourage Continuous Data Monitoring: Healthcare institutions should continuously analyze patient health records to identify emerging disease patterns and improve preventive care strategies.
 
 ## Author
 Aarzu Bharti
