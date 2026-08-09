@@ -7,11 +7,11 @@
 
 I am pleased to present the Heart Health Exploratory Data Analysis (EDA) project, a comprehensive data analytics project developed using Python to transform raw clinical heart disease data into meaningful healthcare insights. This project applies statistical analysis, data cleaning, and interactive visualizations to identify the major factors associated with heart disease risk. By exploring patient demographics, medical indicators, and clinical measurements, the analysis provides valuable insights that can support healthcare professionals, researchers, and data analysts in understanding patterns related to cardiovascular disease.
 
-## Problem Background
+## Business Challenge
 
 The primary objective of this project was to perform an in-depth exploratory analysis of heart disease data to identify the key medical and demographic factors influencing cardiovascular health. The dataset contains patient information including age, gender, chest pain type, blood pressure, cholesterol levels, fasting blood sugar, ECG results, maximum heart rate, exercise-induced angina, ST depression, and other clinical variables. Due to the complexity of medical data, it becomes challenging to identify meaningful relationships and risk patterns without systematic analysis. This project focuses on uncovering hidden trends, detecting correlations, and generating actionable healthcare insights through Exploratory Data Analysis (EDA).
 
-## Analytical work
+## Analytical approach
 
 > The analysis is performed in: **EDA_Heart_Health_Analysis.ipynb**
 
@@ -31,7 +31,7 @@ A systematic Exploratory Data Analysis workflow was implemented to understand th
 
 - **Data Visualization**: Created informative visualizations including heatmaps, histograms, box plots, count plots, pair plots, and correlation matrices to communicate analytical findings effectively.
 
-## Analysis Components
+## Analytical Components
 
 - **Dataset Overview**: Presents the overall structure of the dataset including the number of observations, features, data types, and missing value assessment.
 
@@ -49,7 +49,7 @@ A systematic Exploratory Data Analysis workflow was implemented to understand th
 
 - **Heart Disease Distribution**: Examines the proportion of patients diagnosed with and without heart disease, providing an overall understanding of the dataset.
 
-## Recommendations
+## Business Suggestions
 
 Based on the findings obtained through Exploratory Data Analysis, the following recommendations are proposed:
 
@@ -60,8 +60,6 @@ Based on the findings obtained through Exploratory Data Analysis, the following 
 - **Promote Healthy Lifestyle Practices**: Encourage physical activity, balanced nutrition, smoking cessation, and stress management to reduce overall cardiovascular risk.
 
 - **Focus on High-Risk Age Groups**: Preventive healthcare initiatives should prioritize middle-aged and older adults who demonstrate higher susceptibility to heart disease.
-
-- **Leverage Clinical Indicators**: Medical professionals should evaluate chest pain type, exercise-induced angina, ST depression, and maximum heart rate collectively for more accurate risk assessment.
 
 ## Author
 Aarzu Bharti
